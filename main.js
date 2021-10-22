@@ -1,9 +1,9 @@
-    const linksSocialMedia = {
-      github: 'alannub',
-      linkedin: 'alanmirandasilva',
-      facebook: 'alamirsilva2',
-      instagram: 'alannub',
-      twitter: 'oalannubo',
+ const linksSocialMedia = {
+     github: 'alannub',
+     linkedin: 'alanmirandasilva',
+     facebook: 'alamirsilva2',
+     instagram: 'alannub',
+     twitter: 'oalannubo',
     }
 
     function changeSocialMediaLinks() {
@@ -29,6 +29,5 @@ function getGitHubProfileInfos() {
     userPhoto.src = data.avatar_url
     userLogin.textContent = data.login
   })
-
-  getGitHubProfileInfos()
 }
+getGitHubProfileInfos()
